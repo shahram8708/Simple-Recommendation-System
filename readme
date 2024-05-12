@@ -1,0 +1,44 @@
+# Interview Question Recommender
+
+The Interview Question Recommender is a web application designed to assist individuals in preparing for interviews by providing them with tailored interview questions based on their selected role and experience level.
+
+---
+
+## Table of Contents
+
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+4. [Usage](#usage)
+5. [Contributing](#contributing)
+6. [License](#license)
+
+---
+
+## Introduction
+
+In today's competitive job market, preparing for interviews effectively is crucial for success. The Interview Question Recommender simplifies this process by offering personalized interview question recommendations based on the user's chosen role and experience level. Whether you're a Software Engineer, Data Scientist, Product Manager, or in another role, this application ensures that you're well-equipped with relevant questions to ace your interview.
+
+---
+
+## Features
+
+- **Dynamic Question Recommendations:** Based on the user's selected role and experience level, the application dynamically recommends interview questions suited to their profile.
+- **Wide Range of Roles:** The application supports various roles such as Software Engineer, Data Scientist, and Product Manager, among others.
+- **Responsive Design:** The user interface is designed to be responsive, ensuring compatibility across different devices and screen sizes.
+- **Interactive Experience:** Users can easily select their role and experience level using dropdown menus and receive instant recommendations with a single click.
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+Before running the application, ensure you have the following software installed on your local machine:
+
+- [Python](https://www.python.org/) (version 3.6 or higher)
+- [Flask](https://flask.palletsprojects.com/en/2.0.x/installation/) (a Python web framework)
+- A modern web browser
+

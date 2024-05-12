@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview Question Recommender</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Interview Question Recommender</h1>
+        <div class="form-container">
+            <label for="role">Role:</label>
+            <select id="role">
+                <option value="Software Engineer">Software Engineer</option>
+                <option value="Data Scientist">Data Scientist</option>
+                <option value="Product Manager">Product Manager</option>
+            </select><br>
+            <label for="experience">Experience Level:</label>
+            <select id="experience">
+                <option value="Entry">Entry</option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="Senior">Senior</option>
+            </select><br>
+            <button onclick="getRecommendations()">Get Recommendations</button>
+        </div>
+        <div id="recommendations"></div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

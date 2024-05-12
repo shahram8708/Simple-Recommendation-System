@@ -1,0 +1,93 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.form-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #555;
+}
+
+select {
+    padding: 12px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: calc(100% - 22px); /* Adjusted width to accommodate border */
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+select:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+button {
+    padding: 12px 30px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#recommendations {
+    margin-top: 30px;
+    max-height: 400px; /* Set the maximum height for the recommendations section */
+    overflow-y: auto; /* Add vertical scroll if content exceeds maximum height */
+    padding: 20px; /* Add padding for better spacing */
+}
+
+.recommendation {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    transition: transform 0.3s ease; /* Add transition for smooth hover effect */
+}
+
+.recommendation:hover {
+    transform: translateY(-5px); /* Apply a slight lift effect on hover */
+}
+
+.recommendation h3 {
+    margin: 0 0 10px 0;
+    color: #333;
+    font-size: 20px; /* Increase font size for better emphasis */
+}
+
+.recommendation p {
+    margin: 0;
+    color: #666;
+    font-size: 16px; /* Adjust font size for better readability */
+}
