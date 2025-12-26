@@ -42,3 +42,4 @@ Before running the application, ensure you have the following software installed
 - [Flask](https://flask.palletsprojects.com/en/2.0.x/installation/) (a Python web framework)
 - A modern web browser
 
+
